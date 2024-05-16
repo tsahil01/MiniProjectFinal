@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Editor from '@monaco-editor/react';
 import io from 'socket.io-client';
 
-const socket = io("http://localhost:5000");
+const socket = io("http://192.168.19.13:5000/");
 
 function Rooms({ roomId, h, w }: { roomId: any, h: any, w: any}) {
   const [text, setText] = useState('');
