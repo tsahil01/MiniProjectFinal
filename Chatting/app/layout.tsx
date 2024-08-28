@@ -4,11 +4,11 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import ThemeProvider from "@/components/providers/ThemeProvider";
 import { cn } from "@/lib/utils";
+import { Inter as FontSans } from "next/font/google"
 import { ModalProvider } from "@/components/providers/ModalProvider";
 import SocketProvider from "@/components/providers/SocketProvider";
 import QueryProvider from "@/components/providers/QueryProvider";
 
-import { Inter as FontSans } from "next/font/google"
  
  
 const fontSans = FontSans({
